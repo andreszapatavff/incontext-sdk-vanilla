@@ -1,0 +1,24 @@
+{
+  "name": "incontext-vanilla-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "dependencies": {
+    "@veriff/incontext-sdk": "^2.4.0",
+    "@veriff/js-sdk": "^1.5.1"
+  }
+}
